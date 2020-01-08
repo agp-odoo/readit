@@ -82,6 +82,7 @@
     <field name="arch" type="xml">
       <tree>
         <field name="id"/>
+        <field name="super_ref"/>
         <field name="name"/>
         <field name="content"/>
         <field name="create_date" string="Timestamp"/>
