@@ -3,6 +3,7 @@ from odoo import models, api, fields
 class Comments(models.Model):
     _name = 'readit.comments'
     _description = 'A comment about a post from a Readit forum subject.'
+    _sequence = 'readit_posts_ir_seq'
 
     name = fields.Char(string='Author', compute='_getAuthor')
 
