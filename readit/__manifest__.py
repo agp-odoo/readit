@@ -2,7 +2,24 @@
 {
     'name': "Readit",
     'summary': "A company forum where any topic can be discussed.",
-    'description': "",
+    'description': """
+    Readit
+    A company forum where any topic can be discussed.
+    Each post's content is render within the Kanban view grouped by Forum subject.
+    
+    Only Settings Administrators can edit or delete content.
+    
+    Users may edit the information regarding their post:
+    - Post Title
+    - Post's Forum
+    Users may add content to their posts, but not remove anything.
+    Comments last forever, so use your best judgement.
+
+    URLs render as:
+    1. Title (hyperlink to the original URL)
+    2. Description
+    3. Image or Favicon
+    """,
 
     'author': "Odoo",
     'website': "http://www.odoo.com",
