@@ -36,6 +36,7 @@
 
     # any module necessary for this one to work correctly
     'depends': ['contacts', 'renderlistcontent'],
+    'images': ['static/description/banner.png'],
 
     # always loaded
     'data': [
